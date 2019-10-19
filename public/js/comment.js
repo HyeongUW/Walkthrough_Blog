@@ -56,7 +56,7 @@ $(document).ready(function() {
     newCommentCard.addClass("card");
     var newCommentCardHeading = $("<div>");
     newCommentCardHeading.addClass("card-header");
-    var newCommentUsername = $("<h2>");
+    var newCommentUsername = $("<h4>");
     var newCommentDate = $("<small>");
     
     var newCommentCardBody = $("<div>");
@@ -65,7 +65,7 @@ $(document).ready(function() {
     
     
     newCommentUsername.text(commentData.username + " ");
-    newCommentBody.text(commentData.username);
+    newCommentBody.text(commentData.body);
     newCommentDate.text(formattedDate);
 
     newCommentUsername.append("<br>").append(newCommentDate);
