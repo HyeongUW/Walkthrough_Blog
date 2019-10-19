@@ -50,22 +50,32 @@ $(document).ready(function() {
 
   // Function for creating a new list row for authors
   function createCommentRow(commentData) {
-    var newTr = $("<tr>");
-    newTr.data("comment", commentData);
-    console.log("CommentData.body: ", commentData.body);
-    newTr.append("<td>" + commentData.username + ": " + commentData.body + "</td>");
+    var formattedDate = new Date(commentData.createdAt);
+    formattedDate = moment(formattedDate).format("MMMM Do YYYY, h:mm:ss a");
+    var newCommentCard = $("<div>");
+    newCommentCard.addClass("card");
+    var newCommentCardHeading = $("<div>");
+    newCommentCardHeading.addClass("card-header");
+    var newCommentUsername = $("<h2>");
+    var newCommentDate = $("<small>");
     
-    /* if (commentData.Posts) {
-      newTr.append("<d> " + commentData.Posts.length + "</td>");
-    } else {
-      newTr.append("<td>0</td>");
-    } */
+    var newCommentCardBody = $("<div>");
+    newCommentCardBody.addClass("card-body");
+    var newCommentBody = $("<h5>");
     
-    /* newTr.append("<td><a href='/blog?author_id=" + commentData.id + "'>Go to Posts</a></td>"); */
-    /* newTr.append("<td><a href='/cms?author_id=" + commentData.id + "'>Create a Post</a></td>"); */
-    /* newTr.append("<td><a style='cursor:pointer;color:red' class='delete-comment'>Delete Comment</a></td>"); */
-    return newTr;
+    
+    newCommentUsername.text(commentData.username + " ");
+    newCommentBody.text(commentData.username);
+    newCommentDate.text(formattedDate);
 
+    newCommentUsername.append("<br>").append(newCommentDate);
+    
+    newCommentCardHeading.append(newCommentUsername);
+    
+    newCommentCardBody.append(newCommentBody);
+    newCommentCard.append(newCommentCardHeading);
+    newCommentCard.append(newCommentCardBody);
+    return newCommentCard;
   }
 
   // Function for retrieving authors and getting them ready to be rendered to the page
