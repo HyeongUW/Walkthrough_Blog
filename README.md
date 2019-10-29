@@ -1,10 +1,9 @@
+```
 ### Acknowledgments
-
-<strong>here goes explanation about what I did, What I am going to do after this project.<strong>
-- Ben -> Making a category for each post. (Upcoming games, Help Requested, Community)
 
 * This web-application is still under continuing development! See below for anticipated release date.
 * For further development details see [further development plan](furtherDevPlan.md)
+```
 
 # Walkthrough_Blog
 
