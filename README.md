@@ -1,11 +1,17 @@
+### Disclaimer!
+This web-application is still under continuing development! See below for anticipated release date.
+
 # Walkthrough_Blog
 
 A forum/platform that users can share their strategies and walkthroughs for those who suffering from getting through sections/stages of their favorite game.
 
 ## Description
 
-Idea:
-The application would be somewhat similar to the generic blog available on the internet. However, this application would support sign-in feature for the each of user to post their blog entries. Although this blog is designed to be the personal blog, there would be an option given to the user to choose whether publicize their post to the public or not. If it is chosen to be publicized, the entire user would be possible to see that post. 
+Basically, this website is a blog that many of users can share their thoughts about their favorite games. There are number of different topics that user can choose at the time when they are posting their contents. For instance, if user wants to sahre information about the release date of their favorite video game, they can post it under "Upcoming Games" section. On the other hand, if user wants to get a help about unbeatable boss they are facing, they can request for help under the "Help Requested" section. Furthermore, users can discuss about their favorite games with fellow fan-boy gamers in a separate board upon request to the administrator.
+
+The application would be somewhat similar to the generic blog available on the internet. However, this web blog would support sign-in feature for the each of user to post their blog entries. 
+
+Although this blog is designed to be the personal blog, there would be an option given to the user to choose whether publicize their post to the public or not. If it is chosen to be publicized, the entire user would be possible to see that post. 
 •	Users are also able to attach photos (with the URL, to avoid setting up the database to store the image files uploaded by users) when they are uploading their posts. 
 •	Users also can leave a comment on each of the public post by clicking it and navigate into the detailed post page.
 
@@ -95,7 +101,18 @@ For further development details see [UseCases and Psuedo Code](UseCases-PsuedoCo
 
 ## Version History
 
-* 0.1  Initial Release with limited functionality
+* Listed Anticipated Release date:
+    - [x] 0.1
+    - [ ] 0.2
+    - [ ] 0.3
+    - [ ] 0.4
+    - [ ] 0.5
+    - [ ] 0.6
+    - [ ] 0.7
+    - [ ] 0.8
+    - [ ] 0.9
+    - [ ] 1.0 Initial Release with Full Functionality listed above
+
 
 
 <!-- ## License -->
@@ -103,3 +120,4 @@ For further development details see [UseCases and Psuedo Code](UseCases-PsuedoCo
 
 ## Acknowledgments
 <strong>here goes explanation about what I did, What I am going to do after this project.<strong>
+- Ben -> Making a category for each post. (Upcoming games, Help Requested, Community)
