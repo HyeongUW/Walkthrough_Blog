@@ -1,5 +1,19 @@
 # Further Development Plan
 
+## Enhancements
+
+* list of possible enhancements
+    - [x] Use a Node and Express Web Server;
+    - [x] Be backed by a MySQL Database an ORM (not necessarily Sequelize);
+    - [x] Have both GET and POST routes for retrieving and adding new data;
+    - [x] Be deployed using Heroku (with Data);
+    - [ ] Utilize at least one new library, package, or technology that we haven’t discussed;
+    - [ ] Have a polished frontend / UI;
+        - Not up to my standard!
+    - [x] Have folder structure that meets MVC Paradigm;
+    - [x] Meet good quality coding standards (indentation, scoping, naming).
+    - [x] Must not expose sensitive API key information on the server
+
 <strong>here goes explanation about what I did, What I am going to do after this project.<strong>
 - Ben -> Making a category for each post. (Upcoming games, Help Requested, Community)
 
