@@ -1,16 +1,16 @@
 # Walkthrough_Blog
+
+A forum/platform that users can share their strategies and walkthroughs for those who suffering from getting through sections/stages of their favorite game.
+
+## Description
+
 Idea:
 The application would be somewhat similar to the generic blog available on the internet. However, this application would support sign-in feature for the each of user to post their blog entries. Although this blog is designed to be the personal blog, there would be an option given to the user to choose whether publicize their post to the public or not. If it is chosen to be publicized, the entire user would be possible to see that post. 
 •	Users are also able to attach photos (with the URL, to avoid setting up the database to store the image files uploaded by users) when they are uploading their posts. 
 •	Users also can leave a comment on each of the public post by clicking it and navigate into the detailed post page.
 
 
-## Description
-
-This web application helps a user search for Movie/Streaming content to view.
-It consists of a Landing page with trending movies, a search page, detail page and a persistent save title list.
-
-Clicking on a movie image or title within the above pages will load the detail page with a trailer and details for that movie.
+----------------------------------------------------------------------------------------------
 
 ## Deployed Page:
 https://enigmatic-ocean-98245.herokuapp.com/
@@ -82,7 +82,7 @@ For further development details see [UseCases and Psuedo Code](UseCases-PsuedoCo
     - [x] Be backed by a MySQL Database an ORM (not necessarily Sequelize);
     - [x] Have both GET and POST routes for retrieving and adding new data;
     - [x] Be deployed using Heroku (with Data);
-    - [] Utilize at least one new library, package, or technology that we haven’t discussed;
+    - [ ] Utilize at least one new library, package, or technology that we haven’t discussed;
     - [x] Have a polished frontend / UI;
     - [x] Have folder structure that meets MVC Paradigm;
     - [x] Meet good quality coding standards (indentation, scoping, naming).
@@ -98,13 +98,8 @@ For further development details see [UseCases and Psuedo Code](UseCases-PsuedoCo
 * 0.1  Initial Release with limited functionality
 
 
-## License
+<!-- ## License -->
 
-* 0.1 API attribution details go here
 
 ## Acknowledgments
-
-
-
-This is the link to the deployed project;
-https://vkcgithub2019.github.io/First_Project/
+<strong>here goes explanation about what I did, What I am going to do after this project.<strong>
