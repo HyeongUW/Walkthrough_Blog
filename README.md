@@ -25,7 +25,7 @@ https://enigmatic-ocean-98245.herokuapp.com/
 ## Screen Captures:
 
 * Home page - showing each post stored in the database
-  ![home-page](assets/imgs/homepage.png)
+  ![home-page](assets/imgs/homepage.PNG)
 
 ## Getting Started
 
