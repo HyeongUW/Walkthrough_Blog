@@ -47,9 +47,10 @@ https://enigmatic-ocean-98245.herokuapp.com/
 
 * Listed Anticipated Release Plan:
     - [x] 0.1 Basic Posting and Deleting Implementation with association among three different models (`User`, `Post`, `Comment`)
+    - [ ] 0.15 Implementing uploading photos on a post and comment
     - [ ] 0.2 Implementing Passpost sign-in and sign-up feature
     - [ ] 0.3 Implementing Google OAuth sign-in feature
-    - [ ] 0.4 Creating Category for posts (`Upcoming Games`, `Help Requested`, `Game Discussion Board`)
+    - [ ] 0.4 Creating Category for posts (`Upcoming Games`, `Help Requested`, `Community`)
     - [ ] 0.5 Making sure currently logged-in user session maintains while browsing
     - [ ] 1.0 Initial Release with Full Functionality listed above
 

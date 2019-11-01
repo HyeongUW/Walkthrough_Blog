@@ -16,8 +16,8 @@
 
 ## Version History
 
-•	Users are also able to attach photos (with the URL, to avoid setting up the database to store the image files uploaded by users) when they are uploading their posts. 
-•	Users also can leave a comment on each of the public post by clicking it and navigate into the detailed post page.
+* Users are also able to attach photos (with the URL, to avoid setting up the database to store the image files uploaded by users) when they are uploading their posts. 
+* Users also can leave a comment on each of the public post by clicking it and navigate into the detailed post page.
 
 
 * Listed Anticipated Release Plan:
