@@ -23,14 +23,10 @@
 •	Users also can leave a comment on each of the public post by clicking it and navigate into the detailed post page.
 
 
-* Listed Anticipated Release date:
-    - [x] 0.1
-    - [ ] 0.2
-    - [ ] 0.3
-    - [ ] 0.4
-    - [ ] 0.5
-    - [ ] 0.6
-    - [ ] 0.7
-    - [ ] 0.8
-    - [ ] 0.9
+* Listed Anticipated Release Plan:
+    - [x] 0.1 Basic Posting and Deleting Implementation with association among three different models (`User`, `Post`, `Comment`)
+    - [ ] 0.2 Implementing Passpost sign-in and sign-up feature
+    - [ ] 0.3 Implementing Google OAuth sign-in feature
+    - [ ] 0.4 Creating Category for posts (`Upcoming Games`, `Help Requested`, `Game Discussion Board`)
+    - [ ] 0.5 Making sure currently logged-in user session maintains while browsing
     - [ ] 1.0 Initial Release with Full Functionality listed above
